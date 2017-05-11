@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box
+}
+
+.background-dark-gray{
+  background: #666666;
+}
+
+.background-teal{
+  background: #4aaaa5;
+}
+
+.background-white{
+  background: #fff;
+}
