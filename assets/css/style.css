@@ -2,14 +2,27 @@
   box-sizing: border-box
 }
 
+body{
+  --teal: #4aaaa5;
+}
+
 .background-dark-gray{
   background: #666666;
 }
 
 .background-teal{
-  background: #4aaaa5;
+  background: var(--teal);
 }
 
 .background-white{
   background: #fff;
+}
+
+.iconsize{
+  height: 50px;
+  width: 50px;
+}
+
+.inline{
+  display: inline-block;
 }
