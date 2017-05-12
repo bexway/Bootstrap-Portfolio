@@ -4,10 +4,12 @@
 
 body{
   --teal: #4aaaa5;
+  --dark-gray: #666666;
+  --white: #fff;
 }
 
 .background-dark-gray{
-  background: #666666;
+  background: var(--dark-gray);
 }
 
 .background-teal{
@@ -15,7 +17,31 @@ body{
 }
 
 .background-white{
-  background: #fff;
+  background: var(--white);
+}
+
+.bio_image{
+  height: 15.3125em;
+  width: 11.1875em;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-around{
+  justify-content: space-around;
+}
+
+.flex-between{
+  justify-content: space-between;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  background-color: red;
 }
 
 .iconsize{
