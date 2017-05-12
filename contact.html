@@ -6,52 +6,59 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <div class="container">
-    <div class="header parent parent-between parent-vcenter">
-      <div class="name background-teal marginleft">
-        <h1 class="font-header font-white text-center font-bold font2em">Bex Way</h1>
+    <div class="row">
+      <!-- name -->
+      <div class="col-xs-12 col-sm-6 col-md-6 background-teal">
+        <p>Bex Way</p>
       </div>
-      <div class="nav marginright">
-        <ul class="horiz-ul font-general parent parent-vcenter">
-          <!-- float right, list-style none -->
-          <a href="index.html"><li class="horiz-li text-center">About</li></a>
-          <div class="vr margin20"></div>
-          <a href="portfolio.html"><li class="horiz-li">Portfolio</li></a>
-          <div class="vr margin20"></div>
-          <a href="contact.html"><li class="horiz-li">Contact</li></a>
+      <!-- icons -->
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <ul class="flex flex-around">
+          <li role="presentation" class="active"><a href="https://github.com/bexway"><img class="iconsize inline" src="assets/images/github.png" alt=""></a></li>
+          <li role="presentation"><a href="https://www.linkedin.com/in/bex-way-b58355124/"><img class="iconsize inline" src="assets/images/linkedin.png" alt=""></a></li>
+          <li role="presentation"><a href="http://stackoverflow.com/users/6347659/bex-way"><img class="iconsize inline" src="assets/images/so.png" alt=""></a></li>
         </ul>
       </div>
     </div>
-    <div class="parent parent-between">
-      <div class="about content-box marginleft margintop">
-        <h2 class="margin-about font-header font-teal font-bold font2em">Contact</h2>
-        <hr/>
+    <div class="row">
+      <!-- navbar -->
+      <ul class="nav nav-tabs nav-justified">
+        <li role="presentation"><a href="index.html">Home</a></li>
+        <li role="presentation" class="active"><a href="#">Contact</a></li>
+        <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-8">
         <form action="">
           <form method="post" name="contact_form"
           action="contact-form-handler.php">
           <p class="font-general">Name</p>
-          <input type="text" name="name" placeholder="Your name">
+          <input class="inputlabelbox" type="text" name="name" placeholder="Your name">
           <p class="font-general">Email</p>
-          <input type="text" name="email">
+          <input class="font-input inputlabelbox" type="text" name="email" placeholder="example@gmail.com">
           <p class="font-general">Message:</p>
-          <textarea name="message"></textarea>
-          <input type="submit" value="Submit">
+          <textarea class="inputmessagebox" name="message"></textarea>
+          <input class="btn" type="submit" value="Submit">
           </form>
         </form>
       </div>
-      <div class="connectbox content-box marginright margintop">
-        <h3 class="font-header font-bold font-teal font1p25em">Connect with Me</h3>
-        <div class="hr-connect"></div>
-        <div class="parent parent-around">
-          <a href="https://github.com/bexway"><img class="icon" src="assets/images/github.png" alt=""></a>
-          <a href="https://www.linkedin.com/in/bex-way-b58355124/"><img class="icon" src="assets/images/linkedin.png" alt=""></a>
-          <a href="http://stackoverflow.com/users/6347659/bex-way"><img class="icon" src="assets/images/so.png" alt=""></a>
-        </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <p>Sidebar</p>
       </div>
     </div>
+    <!-- <div class="row">
+      <div class="col-xs-12 col-md-12 footer">
+        <footer class="footer">
+          test sticky
+        </footer>
+      </div>
+    </div> -->
   </div>
 </body>
 </html>
