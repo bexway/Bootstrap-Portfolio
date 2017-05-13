@@ -37,6 +37,10 @@ body{
   justify-content: space-between;
 }
 
+.flex-nowrap{
+  flex-wrap: nowrap;
+}
+
 .footer{
   position: absolute;
   bottom: 0;
