@@ -12,6 +12,7 @@ body{
   --bg3: #c6e4e2;
   --bgactive: #52ada8;
   --navy: #344882;
+  --secondary1: #2e615f;
 }
 
 html {
@@ -34,15 +35,19 @@ body
 }
 
 .background-bg2{
-  background: var(--bg1);
+  background: var(--bg2);
 }
 
 .background-bg3{
-  background: var(--bg1);
+  background: var(--bg3);
 }
 
 .background-dark-gray{
   background: var(--dark-gray);
+}
+
+.background-content{
+  background: var(--white);
 }
 
 .background-navy{
@@ -86,6 +91,14 @@ body
   align-items: center;
 }
 
+.font-bold{
+  font-weight: bold;
+}
+
+.font-primary{
+  color: var(--secondary1)
+}
+
 .footer{
   position: absolute;
   bottom: 0;
@@ -120,7 +133,7 @@ body
 
 .nav-tabs > li.active > a{
   border: medium none;
-  background-color: var(--bg1)
+  background-color: var(--bg2)
 }
 
 .nav-tabs > li > a:hover{
@@ -128,4 +141,8 @@ body
     border: medium none;
     border-radius: 0;
     color:#fff;
+}
+
+.padding-content{
+  padding: .5em;
 }
