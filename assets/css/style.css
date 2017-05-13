@@ -6,9 +6,12 @@ body{
   --teal: #4aaaa5;
   --dark-gray: #666666;
   --white: #fff;
+  --bg0: #81c3c0;
   --bg1: #a3d3d1;
   --bg2: #b4dcda;
   --bg3: #c6e4e2;
+  --bgactive: #52ada8;
+  --navy: #344882;
 }
 
 html {
@@ -22,7 +25,7 @@ html {
 body
 { background-color: transparent; }
 
-.background_blue1{
+.background-bg1{
   background: var(--bg1);
 }
 
@@ -30,11 +33,9 @@ body
   background: var(--dark-gray);
 }
 
-/*.background-pattern{
-  background-image: url("../images/cloudy-day/cloudy-day.png");
-  background-size: cover;
-  background-repeat: repeat;
-}*/
+.background-navy{
+  background: var(--navy)
+}
 
 .background-teal{
   background: var(--teal);
@@ -84,22 +85,22 @@ body
 .nav-tabs{
   background-color: var(--white);
 }
-.tab-content{
-    background-color:#303136;
+/*.tab-content{
+    background-color: red;
     color:#fff;
     padding:5px
-}
+}*/
 .nav-tabs > li > a{
   border: medium none;
 }
 
 .nav-tabs > li.active > a{
   border: medium none;
-  background-color: var(--light-blue)
+  background-color: var(--bg1)
 }
 
 .nav-tabs > li > a:hover{
-  background-color: #303136 !important;
+  background-color: var(--bg3);
     border: medium none;
     border-radius: 0;
     color:#fff;
