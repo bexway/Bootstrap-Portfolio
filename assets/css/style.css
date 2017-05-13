@@ -99,6 +99,18 @@ body
   color: var(--secondary1)
 }
 
+.font-family-primary{
+  font-family: 'Roboto Slab', serif;
+}
+
+.font-size-mdheader{
+  font-size: 2em;
+}
+
+.font-size-smheader{
+  font-size: 2em;
+}
+
 .footer{
   position: absolute;
   bottom: 0;
@@ -108,6 +120,11 @@ body
 
 .height100{
   height: 100%
+}
+
+.hr-about{
+  border-top: 3px solid var(--bg3);
+  margin: 2.1875em auto 2.1875em auto;
 }
 
 .iconsize{
@@ -129,18 +146,20 @@ body
 
 .nav-tabs > li > a{
   border: medium none;
+  color: var(--secondary1);
 }
 
 .nav-tabs > li.active > a{
   border: medium none;
-  background-color: var(--bg2)
+  background-color: var(--bg2);
+  color: var(--secondary1);
 }
 
 .nav-tabs > li > a:hover{
   background-color: var(--bg3);
     border: medium none;
     border-radius: 0;
-    color:#fff;
+    color: var(--secondary1);
 }
 
 .padding-content{
