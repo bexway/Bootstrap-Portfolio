@@ -6,10 +6,21 @@ body{
   --teal: #4aaaa5;
   --dark-gray: #666666;
   --white: #fff;
+  --bg1: #a3d3d1;
+  --bg2: #b4dcda;
+  --bg3: #c6e4e2;
+}
+
+.background_blue1{
+  background: var(--bg1);
 }
 
 .background-dark-gray{
   background: var(--dark-gray);
+}
+
+.background-pattern{
+  background-image: url("../images/cloudy-day/cloudy-day.png");
 }
 
 .background-teal{
@@ -55,4 +66,28 @@ body{
 
 .inline{
   display: inline-block;
+}
+
+.nav-tabs{
+  background-color: var(--white);
+}
+.tab-content{
+    background-color:#303136;
+    color:#fff;
+    padding:5px
+}
+.nav-tabs > li > a{
+  border: medium none;
+}
+
+.nav-tabs > li.active > a{
+  border: medium none;
+  background-color: var(--light-blue)
+}
+
+.nav-tabs > li > a:hover{
+  background-color: #303136 !important;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
 }
