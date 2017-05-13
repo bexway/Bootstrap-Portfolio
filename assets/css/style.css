@@ -11,6 +11,17 @@ body{
   --bg3: #c6e4e2;
 }
 
+html {
+  background: url("../images/cloudy-day/cloudy-day.png");
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+body
+{ background-color: transparent; }
+
 .background_blue1{
   background: var(--bg1);
 }
@@ -19,9 +30,11 @@ body{
   background: var(--dark-gray);
 }
 
-.background-pattern{
+/*.background-pattern{
   background-image: url("../images/cloudy-day/cloudy-day.png");
-}
+  background-size: cover;
+  background-repeat: repeat;
+}*/
 
 .background-teal{
   background: var(--teal);
