@@ -169,12 +169,14 @@ input::placeholder{
 .nav-tabs > li > a{
   border: medium none;
   color: var(--secondary1);
+  font-family: 'Roboto Slab', serif;
 }
 
 .nav-tabs > li.active > a{
   border: medium none;
   background-color: var(--bg2);
   color: var(--secondary1);
+  font-family: 'Roboto Slab', serif;
 }
 
 .nav-tabs > li > a:hover{
@@ -182,6 +184,7 @@ input::placeholder{
     border: medium none;
     border-radius: 0;
     color: var(--secondary1);
+    font-family: 'Roboto Slab', serif;
 }
 
 .padding-content{
